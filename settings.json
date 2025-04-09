@@ -3,8 +3,8 @@
   "support": "https://discord.gg/XQxPRJ3TGG",
   
   "pterodactyl": {
-    "domain": "https://panel.example.com",
-    "key": "Your Pterodactyl API key with all permissions"
+    "domain": "https://panel.examplehost.space",
+    "key": "ptla_m9eT0RxwP2G46MU3xUU7ootYSICJmK2Km7yGSgwKrBe"
   },
   "timezone": "Europe/London",
   "version": "1.0",
@@ -26,19 +26,19 @@
         ]
       },
       "bot": {
-        "token": "Your Discord bot token",
+        "token": "MTM1OTM5MjUwOTk0NzgwOTkwNA.G-XVYA.EvcvufKQKYI0h8wxBulyOHyn_YeYUjCGZ2lKkQ",
         "joinguild": {
           "_comment": "The Discord bot must be in these servers and have invite permissions. Automatic guild joining will not work unless role packages are configured correctly. You can always just set it to a random role & package so that only this works.",
-          "enabled": false,
+          "enabled": true,
           "guildid": [
-            "000000000000000000"
+            "1342472684587454484"
           ]
         },
         "giverole": {
           "_comment": "Auto-join must be enabled for this to work - or the user must already be in your Discord. This will give the user a role when they login.",
-          "enabled": false,
-          "guildid": "000000000000000000",
-          "roleid": "000000000000000000"
+          "enabled": true,
+          "guildid": "1342472684587454484",
+          "roleid": "1343444018264281200"
         }
       },
       "passwordgenerator": {
@@ -58,9 +58,9 @@
       },
       "oauth2": {
         "_comment": "Go to https://discord.dev/ and create an application to set up OAuth2. This is required for Flexa to work. You must also set the redirect URL to the link below.",
-        "id": "Your client ID",
-        "secret": "Your client secret",
-        "link": "http://localhost:3000",
+        "id": "1359392509947809904",
+        "secret": "uuh9Wkcs21X2t73tsLdk6vInMNK31BeF",
+        "link": "http://185.195.24.122:3000",
         "callbackpath": "/callback",
         "prompt": true,
         "ip": {
